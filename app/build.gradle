@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.satyam.daggerdemo'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.satyam.daggerdemo"
@@ -30,6 +30,7 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+    buildToolsVersion '35.0.0'
 }
 
 dependencies {
