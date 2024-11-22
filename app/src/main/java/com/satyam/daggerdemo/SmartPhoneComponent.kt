@@ -2,7 +2,7 @@ package com.satyam.daggerdemo
 
 import dagger.Component
 
-@Component
+@Component(modules = [MemoryCardModule::class,NCBatteryModule::class])
 interface SmartPhoneComponent {
     fun getSmartPhone():SmartPhone
 }
